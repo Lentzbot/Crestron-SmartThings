@@ -1,0 +1,13 @@
+C:\Users\brannon\Documents\Visual Studio 2008\Projects\SmartThings\SmartThings\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\brannon\Documents\Visual Studio 2008\Projects\SmartThings\SmartThings\bin\SmartThings.dll
+C:\Users\brannon\Documents\Visual Studio 2008\Projects\SmartThings\SmartThings\bin\SmartThings.pdb
+C:\Users\brannon\Documents\Visual Studio 2008\Projects\SmartThings\SmartThings\bin\SimplSharpCustomAttributesInterface.dll
+C:\Users\brannon\Documents\Visual Studio 2008\Projects\SmartThings\SmartThings\bin\SimplSharpHelperInterface.dll
+C:\Users\brannon\Documents\Visual Studio 2008\Projects\SmartThings\SmartThings\obj\Debug\SmartThings.dll
+C:\Users\brannon\Documents\Visual Studio 2008\Projects\SmartThings\SmartThings\obj\Debug\SmartThings.pdb
+C:\Users\brannon\Documents\Visual Studio 2008\Projects\SmartThings\Crestron-SmartThings\CS\SmartThings\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\brannon\Documents\Visual Studio 2008\Projects\SmartThings\Crestron-SmartThings\CS\SmartThings\bin\SmartThings.dll
+C:\Users\brannon\Documents\Visual Studio 2008\Projects\SmartThings\Crestron-SmartThings\CS\SmartThings\bin\SmartThings.pdb
+C:\Users\brannon\Documents\Visual Studio 2008\Projects\SmartThings\Crestron-SmartThings\CS\SmartThings\obj\Debug\SmartThings.dll
+C:\Users\brannon\Documents\Visual Studio 2008\Projects\SmartThings\Crestron-SmartThings\CS\SmartThings\obj\Debug\SmartThings.pdb
+C:\Users\brannon\Documents\Visual Studio 2008\Projects\SmartThings\Crestron-SmartThings\CS\SmartThings\bin\Newtonsoft.Json.Compact.dll
