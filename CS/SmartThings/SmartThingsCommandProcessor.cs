@@ -33,7 +33,7 @@ namespace SmartThings
             request.Url.Parse(url);
             request.RequestType = Crestron.SimplSharp.Net.Https.RequestType.Get;
             response = client.Dispatch(request);
-            ErrorLog.Notice("Response = {0}", response.ContentString);
+            //ErrorLog.Notice("Response = {0}", response.ContentString);
             string pattern = "value\":\"(.*?)\"";
             foreach (Match m in Regex.Matches(response.ContentString, pattern, RegexOptions.IgnoreCase))
                 SignalChangeEvents.SerialValueChange(deviceID, m.Groups[1].ToString());

@@ -71,10 +71,8 @@ namespace SmartThingsListener
             public string type { get; set; }
         }
 
-        public void Authenticate(string clientID, string clientSecret)
+        public void Authenticate()
         {
-            SmartThingsReceiver.ClientID = clientID;
-            SmartThingsReceiver.ClientSecret = clientSecret;
             HttpClient client = new HttpClient();
             //client.Verbose = false;
             //Testing
@@ -226,7 +224,8 @@ namespace SmartThingsListener
                                         {
                                             ErrorLog.Error("SmartThings Credential File Does Not Match the Client ID provided in the Program!");
                                             ErrorLog.Error("Please Re Run the Authentication Sequence");
-                                            continue;
+                                            ErrorLog.Notice("Module = {0}, File = {1}", ClientID, sTemp);
+                                            break;
                                         }
                                         else
                                         {
@@ -420,9 +419,11 @@ namespace SmartThingsListener
             Server.Active = true;
         }
 
-        public void InitializeHTTPServer(String addressToAcceptConnectionFrom, int port)
+        public void InitializeHTTPServer(String addressToAcceptConnectionFrom, int port, string clientID, string clientSecret)
         {
             SmartThingsReceiver.Port = port;
+            SmartThingsReceiver.ClientID = clientID;
+            SmartThingsReceiver.ClientSecret = clientSecret;
             ErrorLog.Notice("Initializing SmartThings Receiver on Port {0}\n",Port);
             //Create a new instance of a server
             Server = new HttpServer();
